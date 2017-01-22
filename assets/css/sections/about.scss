@@ -24,6 +24,10 @@
       background: #4ECDC4; /* fallback for old browsers*/
       background: -webkit-linear-gradient(to left, #4ECDC4 , #556270); /*Chrome 10-25, Safari 5.1-6*/
       background: linear-gradient(to left, #4ECDC4 , #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+
+      @include small-portrait{
+        width: 250px;
+      }
     }
   }
 
@@ -31,5 +35,14 @@
     width: 50%;
     text-align: justify;
     line-height: 2.5;
+    font-size: 1.5rem;
+
+    @include tablet{
+      width: 80%;
+    }
+
+    @include smaller-tablet{
+      width: 100%;
+    }
   }
 }

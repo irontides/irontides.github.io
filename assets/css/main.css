@@ -47,16 +47,27 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end; }
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .main-nav .logo {
+    width: 300px; }
+    .main-nav .logo img {
+      max-width: 100%;
+      margin: 0 auto; }
+    @media (max-width: 320px) {
+      .main-nav .logo {
+        position: absolute; } }
   .main-nav ul {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-align-self: flex-end;
-    -ms-flex-item-align: end;
-    align-self: flex-end; }
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center; }
   .main-nav li {
     margin: 0 .90em; }
   .main-nav li:last-of-type {
@@ -66,16 +77,24 @@ ul {
       border: 2px solid transparent;
       background-color: #4ECDC4; }
   .main-nav a {
-    font-size: .90rem;
+    font-size: 1rem;
     font-weight: bolder;
     letter-spacing: 1px;
     padding: .90em; }
+  @media (max-width: 600px) {
+    .main-nav {
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+  @media (max-width: 320px) {
+    .main-nav {
+      padding: .10em; } }
 
 .main-header {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(180deg, transparent, black), url(https://irontides.github.io/assets/img/source.gif) center no-repeat black;
+  background: linear-gradient(180deg, transparent, black), url(/assets/img/monsta.gif) center no-repeat black;
   background-size: 100% auto, cover;
   /*video{
     @include center;
@@ -123,6 +142,10 @@ ul {
     @media (max-width: 1024px) {
       .main-header button {
         width: 30%; } }
+    @media (max-width: 600px) {
+      .main-header button {
+        width: 60%;
+        padding: 1em 0; } }
 
 /*.about-gallery{
   background: rgba(69,69,69,0.12);
@@ -160,10 +183,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
       /*Chrome 10-25, Safari 5.1-6*/
       background: linear-gradient(to left, #4ECDC4, #556270);
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/ }
+      @media (max-width: 320px) {
+        .about h2:before {
+          width: 250px; } }
   .about p {
     width: 50%;
     text-align: justify;
-    line-height: 2.5; }
+    line-height: 2.5;
+    font-size: 1.5rem; }
+    @media (max-width: 768px) {
+      .about p {
+        width: 80%; } }
+    @media (max-width: 600px) {
+      .about p {
+        width: 100%; } }
 
 .gallery {
   width: 90%;
@@ -235,8 +268,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .team {
   width: 90%;
-  height: 80vh;
-  margin: 10em auto;
+  margin: 10em auto 5em auto;
   color: #fff;
   z-index: 900000; }
   .team h2 {
@@ -282,6 +314,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
         text-transform: uppercase;
         color: #666;
         letter-spacing: 1.8px; }
+      @media (max-width: 1024px) {
+        .team .team-content article {
+          width: 30%;
+          margin: 2em; } }
+      @media (max-width: 600px) {
+        .team .team-content article {
+          width: 45%;
+          margin: 1.5em; } }
+      @media (max-width: 320px) {
+        .team .team-content article {
+          width: 100%; } }
 
 footer {
   text-align: center;

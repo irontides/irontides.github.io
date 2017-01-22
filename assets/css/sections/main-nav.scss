@@ -2,11 +2,25 @@
   width: 100%;
   padding: 2em;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .logo{
+    width: 300px;
+
+    img{
+      max-width: 100%;
+      margin: 0 auto
+    }
+
+    @include small-portrait{
+      position: absolute;
+    }
+  }
 
   ul{
     display: flex;
-    align-self: flex-end;
+    align-self: center;
   }
 
   li{
@@ -24,9 +38,17 @@
   }
 
   a{
-    font-size: .90rem;
+    font-size: 1rem;
     font-weight: bolder;
     letter-spacing: 1px;
     padding: .90em;
+  }
+
+  @include smaller-tablet{
+    justify-content: center;
+  }
+
+  @include small-portrait{
+    padding: .10em;
   }
 }
