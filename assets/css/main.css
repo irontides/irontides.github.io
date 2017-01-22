@@ -55,7 +55,8 @@ ul {
   flex-direction: row;
   position: relative; }
   .main-nav .logo {
-    width: 300px; }
+    width: 300px;
+    height: 100px; }
     .main-nav .logo img {
       max-width: 100%;
       margin: 0 auto; }
