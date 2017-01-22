@@ -2,7 +2,7 @@ $(document).ready(function(){
   /* scroll activated animation */
    $('.animate').addClass("hidden").viewportChecker({
          classToAdd: 'visible animated fadeInUp',
-         offset: 190
+         offset: 100
         });
 
 
