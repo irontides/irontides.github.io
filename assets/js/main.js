@@ -27,6 +27,6 @@ $(document).ready(function(){
     preloader.fadeOut(preloaderFadeOutTime);
     }
     hidePreloader();
-    });
+  });
 
 });

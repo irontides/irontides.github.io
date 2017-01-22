@@ -167,7 +167,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .gallery {
   width: 90%;
-  height: 80vh;
   margin: 3em auto; }
   .gallery h2 {
     font-size: 2rem;
