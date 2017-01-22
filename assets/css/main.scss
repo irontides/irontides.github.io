@@ -8,14 +8,14 @@
 @import 'sections/main-header.scss';
 
 .about-gallery{
-  background: rgba(26,26,26,0.12);
-background: -moz-linear-gradient(top, rgba(26,26,26,0.12) 0%, rgba(25,25,25,0.12) 3%, rgba(24,24,24,1) 9%, rgba(24,24,24,1) 12%, rgba(23,23,23,1) 14%, rgba(23,23,23,1) 17%, rgba(23,23,23,1) 19%, rgba(22,22,22,1) 25%, rgba(21,21,21,1) 29%, rgba(20,20,20,1) 32%, rgba(20,20,20,1) 35%, rgba(18,18,18,1) 44%, rgba(16,16,16,1) 54%, rgba(14,14,14,1) 68%, rgba(8,8,8,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(26,26,26,0.12)), color-stop(3%, rgba(25,25,25,0.12)), color-stop(9%, rgba(24,24,24,1)), color-stop(12%, rgba(24,24,24,1)), color-stop(14%, rgba(23,23,23,1)), color-stop(17%, rgba(23,23,23,1)), color-stop(19%, rgba(23,23,23,1)), color-stop(25%, rgba(22,22,22,1)), color-stop(29%, rgba(21,21,21,1)), color-stop(32%, rgba(20,20,20,1)), color-stop(35%, rgba(20,20,20,1)), color-stop(44%, rgba(18,18,18,1)), color-stop(54%, rgba(16,16,16,1)), color-stop(68%, rgba(14,14,14,1)), color-stop(100%, rgba(8,8,8,1)));
-background: -webkit-linear-gradient(top, rgba(26,26,26,0.12) 0%, rgba(25,25,25,0.12) 3%, rgba(24,24,24,1) 9%, rgba(24,24,24,1) 12%, rgba(23,23,23,1) 14%, rgba(23,23,23,1) 17%, rgba(23,23,23,1) 19%, rgba(22,22,22,1) 25%, rgba(21,21,21,1) 29%, rgba(20,20,20,1) 32%, rgba(20,20,20,1) 35%, rgba(18,18,18,1) 44%, rgba(16,16,16,1) 54%, rgba(14,14,14,1) 68%, rgba(8,8,8,1) 100%);
-background: -o-linear-gradient(top, rgba(26,26,26,0.12) 0%, rgba(25,25,25,0.12) 3%, rgba(24,24,24,1) 9%, rgba(24,24,24,1) 12%, rgba(23,23,23,1) 14%, rgba(23,23,23,1) 17%, rgba(23,23,23,1) 19%, rgba(22,22,22,1) 25%, rgba(21,21,21,1) 29%, rgba(20,20,20,1) 32%, rgba(20,20,20,1) 35%, rgba(18,18,18,1) 44%, rgba(16,16,16,1) 54%, rgba(14,14,14,1) 68%, rgba(8,8,8,1) 100%);
-background: -ms-linear-gradient(top, rgba(26,26,26,0.12) 0%, rgba(25,25,25,0.12) 3%, rgba(24,24,24,1) 9%, rgba(24,24,24,1) 12%, rgba(23,23,23,1) 14%, rgba(23,23,23,1) 17%, rgba(23,23,23,1) 19%, rgba(22,22,22,1) 25%, rgba(21,21,21,1) 29%, rgba(20,20,20,1) 32%, rgba(20,20,20,1) 35%, rgba(18,18,18,1) 44%, rgba(16,16,16,1) 54%, rgba(14,14,14,1) 68%, rgba(8,8,8,1) 100%);
-background: linear-gradient(to bottom, rgba(26,26,26,0.12) 0%, rgba(25,25,25,0.12) 3%, rgba(24,24,24,1) 9%, rgba(24,24,24,1) 12%, rgba(23,23,23,1) 14%, rgba(23,23,23,1) 17%, rgba(23,23,23,1) 19%, rgba(22,22,22,1) 25%, rgba(21,21,21,1) 29%, rgba(20,20,20,1) 32%, rgba(20,20,20,1) 35%, rgba(18,18,18,1) 44%, rgba(16,16,16,1) 54%, rgba(14,14,14,1) 68%, rgba(8,8,8,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#080808', GradientType=0 );
+  background: rgba(69,69,69,0.12);
+background: -moz-linear-gradient(top, rgba(69,69,69,0.12) 0%, rgba(67,67,67,0.12) 3%, rgba(64,64,64,1) 10%, rgba(63,63,63,1) 12%, rgba(62,62,62,1) 14%, rgba(60,60,60,1) 17%, rgba(59,59,59,1) 19%, rgba(56,56,56,1) 25%, rgba(54,54,54,1) 29%, rgba(52,52,52,1) 32%, rgba(51,51,51,1) 35%, rgba(46,46,46,1) 44%, rgba(41,41,41,1) 54%, rgba(34,34,34,1) 68%, rgba(17,17,17,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(69,69,69,0.12)), color-stop(3%, rgba(67,67,67,0.12)), color-stop(10%, rgba(64,64,64,1)), color-stop(12%, rgba(63,63,63,1)), color-stop(14%, rgba(62,62,62,1)), color-stop(17%, rgba(60,60,60,1)), color-stop(19%, rgba(59,59,59,1)), color-stop(25%, rgba(56,56,56,1)), color-stop(29%, rgba(54,54,54,1)), color-stop(32%, rgba(52,52,52,1)), color-stop(35%, rgba(51,51,51,1)), color-stop(44%, rgba(46,46,46,1)), color-stop(54%, rgba(41,41,41,1)), color-stop(68%, rgba(34,34,34,1)), color-stop(100%, rgba(17,17,17,1)));
+background: -webkit-linear-gradient(top, rgba(69,69,69,0.12) 0%, rgba(67,67,67,0.12) 3%, rgba(64,64,64,1) 10%, rgba(63,63,63,1) 12%, rgba(62,62,62,1) 14%, rgba(60,60,60,1) 17%, rgba(59,59,59,1) 19%, rgba(56,56,56,1) 25%, rgba(54,54,54,1) 29%, rgba(52,52,52,1) 32%, rgba(51,51,51,1) 35%, rgba(46,46,46,1) 44%, rgba(41,41,41,1) 54%, rgba(34,34,34,1) 68%, rgba(17,17,17,1) 100%);
+background: -o-linear-gradient(top, rgba(69,69,69,0.12) 0%, rgba(67,67,67,0.12) 3%, rgba(64,64,64,1) 10%, rgba(63,63,63,1) 12%, rgba(62,62,62,1) 14%, rgba(60,60,60,1) 17%, rgba(59,59,59,1) 19%, rgba(56,56,56,1) 25%, rgba(54,54,54,1) 29%, rgba(52,52,52,1) 32%, rgba(51,51,51,1) 35%, rgba(46,46,46,1) 44%, rgba(41,41,41,1) 54%, rgba(34,34,34,1) 68%, rgba(17,17,17,1) 100%);
+background: -ms-linear-gradient(top, rgba(69,69,69,0.12) 0%, rgba(67,67,67,0.12) 3%, rgba(64,64,64,1) 10%, rgba(63,63,63,1) 12%, rgba(62,62,62,1) 14%, rgba(60,60,60,1) 17%, rgba(59,59,59,1) 19%, rgba(56,56,56,1) 25%, rgba(54,54,54,1) 29%, rgba(52,52,52,1) 32%, rgba(51,51,51,1) 35%, rgba(46,46,46,1) 44%, rgba(41,41,41,1) 54%, rgba(34,34,34,1) 68%, rgba(17,17,17,1) 100%);
+background: linear-gradient(to bottom, rgba(69,69,69,0.12) 0%, rgba(67,67,67,0.12) 3%, rgba(64,64,64,1) 10%, rgba(63,63,63,1) 12%, rgba(62,62,62,1) 14%, rgba(60,60,60,1) 17%, rgba(59,59,59,1) 19%, rgba(56,56,56,1) 25%, rgba(54,54,54,1) 29%, rgba(52,52,52,1) 32%, rgba(51,51,51,1) 35%, rgba(46,46,46,1) 44%, rgba(41,41,41,1) 54%, rgba(34,34,34,1) 68%, rgba(17,17,17,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#111111', GradientType=0 );
 }
 
 @import 'sections/about.scss';
@@ -34,57 +34,4 @@ footer{
 
 .visible{
   opacity: 1;
-}
-
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-top: 48%;
-left: 48%;
-}
-
-.double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #333;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-
-.double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
-}
-
-.spinner-wrapper {
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #111;
-z-index: 999999;
 }
