@@ -15,7 +15,12 @@
   h1{
     width: 100%;
     font-size: 6vw;
+    letter-spacing: -5px;
     font-family: gamecube;
+
+    @include desktop-laptop{
+      font-size: 8vw;
+    }
   }
 
   button{
@@ -25,14 +30,20 @@
     background: -webkit-linear-gradient(to left, #4ECDC4 , #556270); /*Chrome 10-25, Safari 5.1-6*/
     background: linear-gradient(to left, #4ECDC4 , #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 
+    margin: 3em auto;
+
     padding: 1em;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 1.5em;
-    width: 30%;
+    width: 20%;
     cursor: pointer;
     font-weight: bold;
+
+    @include desktop-laptop{
+      width: 30%;
+    }
   }
 
   /*video{

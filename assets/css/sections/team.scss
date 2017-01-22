@@ -1,6 +1,7 @@
 .team{
   width: 90%;
-  margin: 3em auto;
+  height: 80vh;
+  margin: 10em auto;
   color: #fff;
   z-index: 900000;
 
@@ -14,8 +15,8 @@
     &:before{
       content: "";
       display: block;
-      width: 50%;
-      height: 10px;
+      width: 350px;
+      height: 5px;
       position: relative;
       top: -30px;
       background: #4ECDC4; /* fallback for old browsers*/

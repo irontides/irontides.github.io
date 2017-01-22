@@ -25,7 +25,7 @@
 
 /* media queries */
 @mixin widescreen{
-  @media (min-width: #{widescreen}){
+  @media (min-width: $widescreen){
     @content;
   }
 }
