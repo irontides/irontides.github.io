@@ -1,0 +1,32 @@
+.main-nav{
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: flex-end;
+
+  ul{
+    display: flex;
+    align-self: flex-end;
+  }
+
+  li{
+    margin: 0 .90em;
+  }
+
+  li:last-of-type{
+    border: 2px solid #4ECDC4;
+    transition: all .50s ease;
+
+    &:hover{
+      border: 2px solid transparent;
+      background-color: #4ECDC4;
+    }
+  }
+
+  a{
+    font-size: .90rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: .90em;
+  }
+}
