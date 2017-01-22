@@ -76,7 +76,15 @@ ul {
   width: 100%;
   height: 100vh;
   background: linear-gradient(180deg, transparent, black), url(https://irontides.github.io/assets/img/source.gif) center no-repeat black;
-  background-size: 100% auto, cover; }
+  background-size: 100% auto, cover;
+  /*video{
+    @include center;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+  }*/ }
   .main-header .header-content {
     position: absolute;
     top: 50%;
@@ -89,7 +97,6 @@ ul {
   .main-header h1 {
     width: 100%;
     font-size: 6vw;
-    letter-spacing: 2px;
     font-family: gamecube; }
   .main-header button {
     font-size: 1.5rem;
@@ -108,18 +115,6 @@ ul {
     width: 30%;
     cursor: pointer;
     font-weight: bold; }
-  .main-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -2; }
 
 /*.about-gallery{
   background: rgba(69,69,69,0.12);
@@ -251,3 +246,49 @@ footer {
 
 .visible {
   opacity: 1; }
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 48%;
+  left: 48%; }
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out; }
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s; }
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1); } }
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111;
+  z-index: 999999; }

@@ -15,7 +15,6 @@
   h1{
     width: 100%;
     font-size: 6vw;
-    letter-spacing: 2px;
     font-family: gamecube;
   }
 
@@ -36,12 +35,12 @@
     font-weight: bold;
   }
 
-  video{
+  /*video{
     @include center;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -2;
-  }
+  }*/
 }
