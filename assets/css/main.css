@@ -44,7 +44,7 @@ ul {
 
 .main-nav {
   width: 100%;
-  padding: 0 1em;
+  padding: 0 2em;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -66,6 +66,9 @@ ul {
       content: "";
       display: block;
       clear: both; }
+    @media (max-width: 768px) {
+      .main-nav .logo {
+        padding-top: 3em; } }
   .main-nav ul {
     display: -webkit-flex;
     display: -ms-flexbox;
