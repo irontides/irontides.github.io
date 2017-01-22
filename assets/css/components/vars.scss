@@ -5,7 +5,6 @@ $light-background: #eee;
 $dark-background: #222;
 $accent-color: #264348;
 $base-font: 'Nunito Sans';
-$secondary-font: 'Merriweather';
 
 /* media queries breakpoints */
 $widescreen: 1200px;
@@ -17,6 +16,6 @@ $small-portrait: 320px;
 
 
 @font-face {
-    font-family: gamecube;
-    src: url(/assets/css/tools/GameCube.ttf);
+  font-family: gamecube;
+  src: url(/assets/css/tools/GameCube.ttf);
 }
