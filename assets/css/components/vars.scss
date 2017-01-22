@@ -14,3 +14,9 @@ $tablet: 768px;
 $smaller-tablet: 600px;
 $small-landscape: 480px;
 $small-portrait: 320px;
+
+
+@font-face {
+    font-family: gamecube;
+    src: url(/assets/css/tools/GameCube.ttf);
+}

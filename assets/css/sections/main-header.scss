@@ -3,14 +3,20 @@
   width: 100%;
   height: 100vh;
 
+  background: linear-gradient(180deg, transparent, black), url(https://irontides.github.io/assets/img/source.gif) center no-repeat black;
+	background-size: 100% auto, cover;
+
   .header-content{
     @include center;
     text-align: center;
+    width: 100%;
   }
 
   h1{
-    font-size: 6rem;
+    width: 100%;
+    font-size: 6vw;
     letter-spacing: 2px;
+    font-family: gamecube;
   }
 
   button{
@@ -25,7 +31,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 1.5em;
-    width: 60%;
+    width: 30%;
     cursor: pointer;
     font-weight: bold;
   }
