@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  /* scroll activated animation */
+  /* smooth scroll animation */
    $('.animate').addClass("hidden").viewportChecker({
          classToAdd: 'visible animated fadeInUp',
          offset: 100

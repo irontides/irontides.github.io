@@ -2,8 +2,9 @@
   width: 90%;
   margin: 2em auto 15em auto;
 
-  @include desktop-laptop{
-    height: 70vh;
+  @include small-portrait{
+    width: 98%;
+    margin: 2em auto 8em auto;
   }
 
   h2{
@@ -12,6 +13,10 @@
     width: 50%;
     margin-bottom: 2em;
     letter-spacing: 3px;
+
+    @include small-portrait{
+      font-size: 1.5rem;
+    }
 
     &:before{
       content: "";
@@ -25,7 +30,7 @@
       background: linear-gradient(to left, #4ECDC4 , #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 
       @include small-portrait{
-        width: 250px;
+        width: 220px;
       }
     }
   }
@@ -38,9 +43,11 @@
 
     @include tablet{
       width: 80%;
+      padding: .30em;
     }
 
     @include smaller-tablet{
+      font-size: 1.2rem;
       width: 100%;
     }
   }

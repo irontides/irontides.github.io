@@ -17,8 +17,16 @@
     word-spacing: 5px;
     font-family: gamecube;
 
+    @include widescreen{
+      font-size: 5vw;
+    }
+
     @include desktop-laptop{
       font-size: 8vw;
+    }
+
+    @include table{
+      font-size: 10vw;
     }
   }
 
@@ -47,6 +55,11 @@
     @include smaller-tablet{
       width: 60%;
       padding: 1em 0;
+    }
+
+    @include small-landscape{
+      padding: .50em;
+      width: 60%;
     }
   }
 }
