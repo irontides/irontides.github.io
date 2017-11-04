@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(180deg, transparent, black), url(/assets/img/source.m4a) center no-repeat black;
+  background: linear-gradient(180deg, transparent, black), url(../img/monsta.gif) center no-repeat black;
 	background-size: 100% auto, cover;
 
   .header-content{
@@ -15,7 +15,7 @@
     width: 100%;
     font-size: 6vw;
     word-spacing: 5px;
-    font-family: gamecube;
+    font-family: 'Passion One';
 
     @include widescreen{
       font-size: 5vw;
@@ -28,17 +28,17 @@
     @include tablet{
       font-size: 10vw;
     }
+
+    @media (min-width: 1200px) {
+      font-size: 8.5vw;
+    }
   }
 
   button{
     font-size: 1.5rem;
     border: none;
-    background: #4ECDC4; /* fallback for old browsers*/
-    background: -webkit-linear-gradient(to left, #4ECDC4 , #556270); /*Chrome 10-25, Safari 5.1-6*/
-    background: linear-gradient(to left, #4ECDC4 , #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
-
+    background-color: #4ECDC4; /* fallback for old browsers*/
     margin: 5em auto 0 auto;
-
     padding: 1em;
     color: #fff;
     text-transform: uppercase;
@@ -47,6 +47,19 @@
     width: 20%;
     cursor: pointer;
     font-weight: bold;
+    position: relative;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 3px;
+      left: -3px;
+      width: 100%;
+      height: 100%;
+      background-color: darken(#4ECDC4, 10%);
+      z-index: -1;
+    }
 
     @include desktop-laptop{
       width: 30%;
